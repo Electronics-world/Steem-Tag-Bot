@@ -20,6 +20,7 @@ I needed a way to automatically vote on every new post to the tag #actifit. Afte
 successful upvote to the console and does not show a log listing for every new block scanned. 
 
 This is a sample of the new output to the console: 
+
 "Successfully voted 2% #actifit post! by browery  Posts Voted: 1 @ Block # 24555650"
 
 AGAIN! THIS BOT VOTES WITH NO DELAY! 
