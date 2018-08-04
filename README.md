@@ -1,5 +1,6 @@
-STEEM Tag Bot  v0.0.3
-Developed by @KLYE as Vooby(2017), Updated and Modified to Tag(2018) by @Flemingfarm
+STEEM Tag Bot
+Updated and Modified to Tag(2018) by @Flemingfarm, Developed by @KLYE as Vooby(2017)
+
 Free to Use for All! || Free to Modify
 
 Designed to upvote a new post under a tag with no delay. The moment the blockchain 
@@ -15,8 +16,7 @@ post payout!
 
 The UPDATE:
 
-I needed a way to automatically vote on every new post to the tag #actifit and after finding Vooby bot I had to make a few updates
-and modifications to the code, in doing so I renamed it to better reflect its purpose. In it's current version the bot only logs a
+I needed a way to automatically vote on every new post to the tag #actifit. After finding Vooby bot I had to make a few updates and modifications to the code, primarily adding the catch() in order to suppress the errors that would drop the script forcing a restart. In doing so I renamed it to better reflect its purpose. In it's current version the bot only logs a
 successful upvote to the console and does not show a log listing for every new block scanned. 
 
 This is a sample of the new output to the console: 
