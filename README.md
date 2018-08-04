@@ -28,26 +28,35 @@ AGAIN! THIS BOT VOTES WITH NO DELAY!
 Requirements to run:
 
 INSTALL: 
+
 Node.js ->	https://.nodejs.org/en/download
+
 steem.js -> CLI - npm install steem --save
+
 Forever ->  CLI - npm install forever -g (to run in daemon)
 
 CONFIG - Edit Tab.js:
 (These 4 variables MUST be input for bot to run!)
 
 ***IMPORTANT*** Your Posting Private Key Below
+
 var wifkey = '';
 
 ***IMPORTANT*** Enter Voting account below (no @)
+
 var voter = "";
 
 ***IMPORTANT*** Enter the Tag you want to upvote new posts in
+
 var targettag = "";
 
 ***IMPORTANT*** Modify this (10000 = 100.00% vote & 100 = 1.00% vote)
+
 var weight = 0;
 
 
 ************************ TO RUN SCRIPT ****************************
+
 ****************** At command line:  node tag.js ******************
+
 ************** As Forever: forever -e err.log tag.js **************
