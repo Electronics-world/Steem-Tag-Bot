@@ -42,7 +42,7 @@ console.log("- Steem Tag Bot - By @Flemingfarm - Listening to STEEM Network for 
 console.log("-------------------------------------------------------------------------------------------");
 console.log("------------------------------- Started: @ " + dateTime + " -------------------------------");
 
-//steem.api.setOptions({ url: 'https://api.steemit.com' });
+steem.api.setOptions({ url: 'https://api.steemit.com' });
 
 //----- GRAB CURRENT STEEM BLOCK
 steem.api.streamBlockNumber(function (err1, lastblock) {
