@@ -27,7 +27,7 @@ AGAIN! THIS BOT VOTES WITH NO DELAY!
 
 Requirements to run:
 
-INSTALL: 
+***INSTALL:*** 
 
 Node.js ->	https://.nodejs.org/en/download
 
@@ -35,7 +35,7 @@ steem.js -> CLI - npm install steem --save
 
 Forever ->  CLI - npm install forever -g (to run in daemon)
 
-CONFIG - Edit Tab.js:
+***CONFIG*** - Edit Tab.js:
 (These 4 variables MUST be input for bot to run!)
 
 ***IMPORTANT*** Your Posting Private Key Below
