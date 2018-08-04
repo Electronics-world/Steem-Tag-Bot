@@ -61,3 +61,6 @@ var weight = 0;
 ****************** At command line:  node tag.js ******************
 
 ************** As Forever: forever -e err.log tag.js **************
+
+
+***This script is not perfect! Use at your own discretion!***
